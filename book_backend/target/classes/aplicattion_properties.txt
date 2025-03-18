@@ -1,0 +1,22 @@
+yaad rkahne sapce matter karta hai es file me aur yeha case sensitive bhi hai 
+server.port= yhea apne app server name dene ke liye use hota hai hum koi bhi server name de sakte hai 
+range 2 to 65755 but 2500 tak ke port reserve rhete hai aur kuch port unke alawa koi bhi de sakte hai hai 
+
+
+springboot me databace conneted bhi yahi se ho jayega 
+
+
+1. esme denge name of driver 
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+2.esme denge location of atabase
+spring.datasource.url=jdbc:mysql://localhost:3306/bookapp?useSSL=false&allowPublicKeyRetrieval=true
+?useSSL=false&allowPublicKeyRetrieval=true yhea likhna optional hai 
+yhea Ye setting SSL (Secure Sockets Layer) ko disable karwa kaar allowed aarwata hai 
+
+
+yaha server ka mae
+spring.datasource.username=root
+
+yaha server ka password
+spring.datasource.password=
