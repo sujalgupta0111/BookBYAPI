@@ -1,4 +1,4 @@
-# 📚 Book Admin Module
+# 📚 Book Admin Module Comunication through RESTful API
 
 ## 🚀 Overview
 The **Book Admin Module** is a robust application designed for managing books, supporting various CRUD (Create, Read, Update, Delete) operations. It seamlessly connects with a **MySQL database**, utilizes **Hibernate** for ORM, and follows the **RESTful architecture** for API communication. The frontend is developed using **Thymeleaf**.
